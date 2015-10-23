@@ -1,0 +1,170 @@
+body
+{
+	font-family: "Arial";
+}
+
+div, h1, h2, h3, h4, h5, a, ul, li {
+	/* This style forces a black border on most elements in this assignment 
+	   Uncomment it to help you visualize the document structure */
+	
+	/*
+	border: 2px solid black ;
+	box-sizing:border-box;
+	margin: 1px;
+	*/
+}
+
+/* This CSS rule removes some of the default styling You can leave it in place */
+h1, h2, h3, h4, h5, p, a, body
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* BEGIN YOUR CHANGES HERE */
+
+
+.btn
+{	border-radius: 25px;
+    border-color: #FF0066;
+    color: white;
+    background-color: #FF0066;
+    padding: 10px 40px;
+}
+
+.logo {
+	margin-top: 29px;
+	margin-left: 70px;
+}
+
+.navLogin
+{
+    float: right;
+    margin-top: 18px;
+    margin-right: 70px;
+    color: #FF0066;
+    background-color: white;
+    border-color: #FF0066;
+    border: 2px solid;
+}
+
+.navSubscribe
+{
+    float: right;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+.navSubscribe-middle
+{
+    float: left;
+    margin-top: 0px;
+    margin-right: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.navbar
+{
+	height: 80px;
+}
+
+/*.splash-image {
+	background: url(img/hero-photo.png) top center;
+	width: 1367px;
+	height: 720px;
+
+}*/
+
+.splash-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+.caption-wrapper {
+	position: absolute;
+	top: 300px;
+	margin-left: 209px;
+}
+
+.copy {
+	font-family: "Arial Black";
+	font-size: 52px;
+	color: white;
+	line-height: 60px;
+}
+
+.copy-2 {
+	font-size: 22px;
+	color: white;
+	line-height: 60px;
+}
+
+.middle-wrapper {
+	margin-top: 70px;
+	margin-bottom: 46px;
+	
+}
+
+.middle-wrapper-copy {
+	font-family: "Arial Black";
+	font-size: 36px;
+	color: #2B95FD;
+	text-align: center;
+	line-height: 24px;
+}
+
+.middle-wrapper-copy-sm {
+
+	font-family: "Arial";
+	font-size: 22px;
+	color: #959595;
+	text-align: center;
+	line-height: 64px;
+}
+
+.column-wrapper {
+	margin-top: 70px;
+	margin-bottom: 76px;
+	margin-left: 209px;
+	margin-right: 209px;
+	
+}
+
+.boxes {
+	border-radius: 25px;
+	background-color: black;
+  	width: 300px;
+	border-color: #3397fa;
+    color: white;
+    background-color: #3397fa;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.basic {
+
+	margin-bottom: 20px;
+
+}
+
+.column-title {
+	font-size: 42px;
+}
+
+.signup
+{
+	border-radius: 25px;
+    border-color: white;
+    border: 2px solid;
+    color: white;
+    background-color: #3397fa;
+    padding: 10px 40px;
+    margin:50px;
+    font-size: 18px;
+    line-height: 25px;
+}
